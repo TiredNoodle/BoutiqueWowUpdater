@@ -1,2 +1,4 @@
 # BoutiqueWowUpdater
-For my python app.
+Yep.
+
+This is for the launcher.
