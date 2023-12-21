@@ -105,10 +105,10 @@ class ManageRealmsWindow(tk.Toplevel):
         with open('config.ini', 'w') as config_file:
             config.write(config_file)
 
-class WowLauncher:
+class TiredLauncher:
     def __init__(self, root):
         self.root = root
-        self.root.title("WoW Launcher")
+        self.root.title("Tired Launcher")
         self.root.geometry("640x480")
 
         # Variables for configuration
@@ -219,9 +219,9 @@ class WowLauncher:
 
     def open_source(self):
         # Open the source code in the default web browser
-        webbrowser.open("https://github.com/your-github-repository")
+        webbrowser.open("https://github.com/TiredNoodle/BoutiqueWowUpdater")
 
 if __name__ == "__main__":
     root = tk.Tk()
-    launcher = WowLauncher(root)
+    launcher = TiredLauncher(root)
     root.mainloop()
