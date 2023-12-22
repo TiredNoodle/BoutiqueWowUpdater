@@ -1,4 +1,4 @@
-# BoutiqueWowUpdater / TiredLauncher
+# BoutiqueWowUpdater / Tired Launcher
 
 Couldn't find a launcher that was suitable for my needs, so I decided to slap together my own!
 
